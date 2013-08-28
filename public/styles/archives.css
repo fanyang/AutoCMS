@@ -1,0 +1,33 @@
+#dateList li{
+	display: block;
+	width: 75px;
+	height: 20px;
+	float: left;
+}
+#dealsList{
+	margin: 15px 0;
+}
+#dealsList li{
+	display: block;
+	width: 920px;
+	height: 20px;
+}
+#title{
+	Width: 920px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#PageBody a:link,#PageBody a:visited{
+	color: #7297db;
+	text-decoration: none;
+}
+#PageBody a:hover{
+	color: #bacdee;
+	text-decoration: underline;
+}
+#title{
+	font-size: 18px;
+	color: #7297db;
+	font-weight: bold;
+}

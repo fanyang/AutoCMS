@@ -1,0 +1,216 @@
+body
+{
+	background-color:#DDD;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	text-align:left;
+	word-wrap: break-word;
+	background:url(/public/images/bodybg.gif);
+	background-position: -100px -550px;
+	background-attachment:fixed;
+}
+h1{
+	font-size:16px;
+}
+h2{
+	font-size:15px;
+}
+h3{
+	font-size:12px;
+}
+p{
+	font-size:13px;
+}
+h1 a:link,h1 a:visited,h2 a:link,h2 a:visited,h3 a:link,h3 a:visited{
+	color:#1c63e6;
+	text-decoration:none;
+}
+h1 a:hover,h2 a:hover,h3 a:hover{
+	color: #0caee3;
+}
+ul,li
+{
+  list-style-position:inside;
+}
+:focus {
+	outline: 0;
+}
+
+#Container
+{
+	width:960px;
+	margin:20px auto;
+	padding:0;
+	background-color: #FFF;
+	border-style:solid;
+	border-color:#CCC;
+	border-width:1px;
+	box-shadow: 0 20px 10px 10px rgba(187,187,187,0.5);
+
+}
+
+#PageHeader
+{
+	position:relative;
+	margin:0;
+	padding:0;
+	width:960px;
+	height:140px;
+	background-color: #FFF;
+	border:none;
+	background: url(../images/headerbg.png) repeat-x;
+}
+
+#PageBody
+{
+	position:relative;
+	margin:0 20px 0;
+	padding:0;
+	width:920px;
+	height:auto;
+	min-height:500px;
+	overflow: hidden;
+	background-color:#FFF;
+}
+
+#PageFooter
+{
+	position:relative;
+	margin:0;
+	padding:0;
+	width:960px;
+	height:100px;
+	background-color:#FAB1C4;
+	border-style: solid none none  none;
+	border-color:#F479A5;
+	border-width:5px;
+}
+#HeaderLogo,#HeaderBanner,#HeaderMenu{
+	float:left;
+}
+#HeaderLogo{
+	width:250px;
+	margin:30px 5px 10px 15px;
+}
+#HeaderBanner{
+	width:470px;
+	margin:25px 10px 0 10px;
+}
+
+#TwitterButton{
+	float: right;
+	clear: right;
+	width: 193px;
+	height: 25px;
+	margin:25px 0 0 0;
+}
+
+.nav_search {
+    background: url("../images/nav_search.png") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: right;
+    height: 20px;
+    margin: 10px 10px 0 0;
+    padding: 4px 0 0 4px;
+    width: 181px;
+}
+.nav_search input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    height: 16px;
+}
+.nav_search .kw_ipt {
+    width: 160px;
+	font-size: 12px;
+	color: #888;
+}
+.nav_search .do_ipt {
+    color: #CCCCCC;
+    cursor: pointer;
+    width: 15px;
+}
+
+.main_nav_wrapper{
+	background: url("../images/nav_bg.gif") repeat-x transparent;
+	margin: 5px auto 0;
+	height: 37px;
+	width: 960px;
+	clear: both;
+}
+.main_nav {
+    width:950px;
+	margin:0 auto;
+    color: #FFFFFF;
+}
+.main_nav .nav_left {
+
+}
+.main_nav .nav_left li {
+    background: url("../images/line2.gif") no-repeat scroll right center transparent;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 36px;
+	float:left;
+}
+.main_nav .nav_left li a {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0 14px;
+	text-decoration: none;
+}
+.main_nav .nav_left li a:hover {
+    background: none repeat scroll 0 0 #F05F90;
+    color: #FCF3F4;
+}
+
+#FooterLeft{
+	float: left;
+	margin: 5px 20px;
+	line-height:20px;
+	color:#BBB;
+	word-spacing: 5px;
+}
+#FooterLeft a:link, #FooterLeft a:visited{
+	color:#FFF;
+	text-decoration: none;
+}
+#FooterLeft a:hover{
+	color:#FF2222;
+	text-decoration: none;
+}
+#FooterLeft p.Copy{
+	color:#999;
+	word-spacing: 0;
+}
+#FooterRight{
+	float:right;
+	margin: 5px 20px;
+}
+#FooterRight a:link,#FooterRight a:visited{
+	color:#FFF;
+	text-decoration: none;
+}
+#FooterRight a:hover{
+	color:#FF2222;
+	text-decoration: none;
+}
+.TitleBar{
+	border: 1px solid #ea659b;
+	border-radius:3px;
+	box-shadow: 0 5px 5px #888888;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb5c3', endColorstr='#F479A5'); /*  IE */
+    background:-webkit-gradient(linear, left top, left bottom, from(#ffb5c3), to(#F479A5)); /*  WebKit */
+    background:-moz-linear-gradient(top,  #ffb5c3, #F479A5);
+	background: -o-linear-gradient(top, #ffb5c3 0%,#F479A5 100%);
+	margin:5px auto 25px auto;
+	text-align:center;
+	color:#FFFFFF;
+	width:900px;
+	height:25px;
+	line-height:25px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de;
+}

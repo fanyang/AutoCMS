@@ -1,0 +1,80 @@
+#SearchForm{
+	background-color: #d3def3;
+	margin: 10px 0 10px;
+	padding: 8px 10px;
+	width: 900px;
+	border-radius: 7px;
+}
+#SearchForm input[type=text]{
+	width: 700px;
+	height: 24px;
+	font-size: 16px;
+	color: #888;
+	border-color: #BBB #EEE #EEE #BBB;
+	border-style: solid;
+	border-width: 2px;
+	margin: 5px;
+}
+input.pink{
+    display:inline-block;
+    text-decoration:none;
+    font:bold 12px/12px HelveticaNeue, Arial;
+    padding: 8px 11px;
+	position: relative;
+	top: -1px;
+    color:#555;
+    border:1px solid #dedede;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+	cursor:pointer;
+}
+input.pink{
+    background:#f67689;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f78297', endColorstr='#f56778'); /*  IE */
+    background:-webkit-gradient(linear, left top, left bottom, from(#f78297), to(#f56778)); /*  WebKit */
+    background:-moz-linear-gradient(top,  #f78297, #f56778);
+    border-color:#df6f8b #da5f75 #d55061;
+    color:#913944;
+    text-shadow:0 1px 0 #f89ca9;
+    -webkit-box-shadow:0 1px 1px #c1c1c1, inset 0 1px 0 #f9a1b1;
+    -moz-box-shadow:0 1px 1px #c1c1c1, inset 0 1px 0 #f9a1b1;
+    box-shadow:0 1px 1px #c1c1c1, inset 0 1px 0 #f9a1b1;    
+}
+input.pink:hover{
+    background:#f67c90;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f56c7e', endColorstr='#f78297'); /*  IE */
+    background:-webkit-gradient(linear, left top, left bottom, from(#f56c7e), to(#f78297)); /*  WebKit */
+    background:-moz-linear-gradient(top,  #f56c7e, #f78297);
+    border-color:#c36079 #c25669 #c14e5c;
+    text-shadow:0 1px 0 #f9a6b4;
+    -webkit-box-shadow:0 1px 1px #c3c3c3, inset 0 1px 0 #f8909e;
+    -moz-box-shadow:0 1px 1px #c3c3c3, inset 0 1px 0 #f8909e;
+    box-shadow:0 1px 1px #c3c3c3, inset 0 1px 0 #f8909e;    
+}
+#SearchResult{
+	line-height: 20px;
+	margin: 15px;
+}
+#SearchResult a:link,#SearchResult a:visited{
+	color: #7297db;
+	text-decoration: none;
+}
+#SearchResult a:hover{
+	color: #bacdee;
+	text-decoration: underline;
+}
+#SearchResult h1{
+	text-align: center;
+	font-size: 18px;
+	color: #ff70a1;
+	margin: 15px 0;
+}
+#SearchResult h1 strong{
+	color: #7297db;
+	font-weight: bold;
+}
+span.date{
+	color: #ff70a1;
+	font-size: 10px;
+}

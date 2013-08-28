@@ -1,0 +1,24 @@
+#LeftImg{
+	float:left;
+	margin:30px 0;
+}
+#RightContent{
+	width:330px;
+	margin:30px 0;
+	float:right;
+}
+#RightContent h1{
+	color: #F479A5;
+	font-weight: bold;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+#RightContent p{
+	color: #0caee3;
+	text-indent:40px;
+	line-height:23px;
+}
+#RightContent span{
+	color: #FF5555;
+	font-style: italic;
+}

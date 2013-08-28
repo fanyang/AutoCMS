@@ -1,0 +1,73 @@
+p.HighLight{
+	line-height: 30px;
+	color: #FF0000;
+}
+#HeaderMenu{
+	width: 500px;
+}
+
+#ContentList{
+	width: 2500px;
+}
+#ContentList td{
+	padding:2px 4px;
+	line-height:16px;
+}
+
+#ContentList td a{
+	display:block;
+}
+#ContentList td a:link, #ContentList td a:visited{
+	color:#0000FF;
+	text-decoration:none;
+}
+
+#ContentList td a:hover{
+	color:#FF0000;
+	text-decoration:none;
+}
+#ContentList th, #ManagementRecommend th{
+	text-align:center;
+}
+#ContentList tr.OddRow{background:#FFFFFF}
+#ContentList tr.EvenRow{background:#EEEEFF}
+
+#Pages{
+	width: 100%;
+	height: auto;
+	line-height: 20px;
+	border-style: solid none none none;
+	border-color: #FAB1C4;
+	border-width: 5px;
+	margin:5px 0;
+	color: #AAA;
+
+}
+#Pages a{
+	color:#0000FF;
+	text-decoration:none;
+}
+#Pages a:hover{
+	color:#FF0000;
+	text-decoration:none;
+}
+
+#ContentUpdate table, #ManagementRecommend table{
+	vertical-align:middle;
+}
+
+#ContentUpdate table td, #ManagementRecommend table td, #Config table td{
+	padding: 3px;
+}
+
+#ContentUpdate input[type="text"]{
+	width: 800px;
+}
+input[type="submit"]{
+	width: 100px;
+}
+#Config th{
+	vertical-align:middle;
+	text-align:right;
+	padding: 0 5px;
+}

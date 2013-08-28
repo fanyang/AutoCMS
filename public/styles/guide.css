@@ -1,0 +1,79 @@
+.OddRow{background:#FFFFFF}
+.EvenRow{background:#EEEEFF}
+
+h1{
+	font-size:14px;
+	font-weight:normal;
+	color:#FFF;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de;
+}
+
+a:link, a:visited{
+	color:#1c63e6;
+	text-decoration:none;
+}
+a:hover{
+	color: #0caee3;
+	text-decoration:underline;
+}
+#beautyTable ul,#fashionTable ul,#dealTable ul{
+	float:left;
+	padding:5px;
+}
+#PageBody
+{
+	margin:0;
+	padding:0;
+	width:960px;
+}
+#beautyTable{
+	width:220px;
+	height: auto;
+	border:2px solid #F479A5;
+	border-radius:5px;
+	float: left;
+	margin:15px 0 15px 17px;
+	box-shadow: 0 0 10px 2px rgba(150,150, 150,0.7);
+	overflow:hidden;
+}
+
+#fashionTable{
+	width:440px;
+	height: auto;
+	border:2px solid #F479A5;
+	border-radius:5px;
+	float: left;
+	margin:15px 0 15px 17px;
+	box-shadow: 0 0 10px 2px rgba(150,150, 150,0.7);
+	overflow:hidden;
+}
+
+#dealTable{
+	width:220px;
+	height: auto;
+	border:2px solid #F479A5;
+	border-radius:5px;
+	float:left;
+	margin:15px 0 15px 17px;
+	box-shadow: 0 0 10px 2px rgba(150,150, 150,0.7);
+	overflow:hidden;
+}
+
+.Title{
+	background: #F479A5;
+	padding:5px;
+}
+.Content{
+	height: auto;
+}
+#dealTable a,#beautyTable a,#fashionTable a{
+	display:block;
+	border-radius:3px;
+	width:200px;
+	padding:5px;
+}
+#dealTable a:hover,#beautyTable a:hover,#fashionTable a:hover{
+	color:#FFF;
+	background-color:#0caee3;
+	text-decoration:none;
+}
